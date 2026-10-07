@@ -1,0 +1,29 @@
+LLD Question: Design a Parking Lot
+
+Design a Parking Lot System that manages parking for different types of vehicles.
+
+Functional Requirements
+The parking lot can have multiple floors.
+Each floor has multiple parking spots.
+There are different vehicle types:
+Bike
+Car
+Truck
+Parking spots can also be of different types:
+Bike spot
+Car spot
+Truck spot
+When a vehicle enters:
+Find an appropriate available parking spot.
+Assign the spot to the vehicle.
+Generate a parking ticket.
+When a vehicle exits:
+Calculate the parking fee.
+Accept payment.
+Free the parking spot.
+The system should be able to show available parking spots.
+Different vehicle types may have different parking fees.
+
+Entities :
+
+Vehicle, ParkingLot, ParkingFloors, ParkingSpot, Ticket, Payment
